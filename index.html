@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html  xml:lang="es" lang="es">
+	<head>
+	  <title>Gears of War</title> 
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/estilos.css">
+		<script src="js/java.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet"
+		href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+		integrity="sha384mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script type="text/javascript" src="js/ckeditor/ckeditor.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		</script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="encabezado">
+			<h1><a href="./index.html">Saga Gears</a></h1>
+			<details>
+				<summary>INFORMACIÓN GENERAL</summary>
+				<p>Gears of War es un videojuego de disparos en tercera persona, del género acción-aventura y estrategia, desarrollado por Epic Games utilizando el motor de videojuego Unreal Engine 3.
+	Gears of War fue publicado por Microsoft Game Studios para la consola Xbox 360 el 26 de enero en Europa.El comienzo de la saga transcurre a comienzos  de 14 años después del día E, 
+	después de la activación del martillo del alba en Sera. Marcus Fenix, El soldado de la CGO, es reintegrado en el ejército después de haber pasado cuatro años en prisión . Actualmente en el E3 del 2018 se anuncio la quinta entrega lineal de la saga.Se puede jugar en xbox360 ,Xbox one S y X en modo retrocompatible , y la ultimas entregas tambien en Windows10</p>
+			</details>
+			</div>
+			<br />
+			<h2>ENTREGAS</h2>
+		
+			<div class="row">
+			
+				<div class="col-sm-12 col-md-5 col-lg-2 dropdown">
+					<div class="cajas dropdown-toggle" type="button" 
+					id="dropdownMenuButton" data-toggle="dropdown" 
+					aria-haspopup="true" aria-expanded="false"><b>Gears of War</b>				
+						</div>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="#" onclick="aparecer_gears(1)"><b>Personajes</b></a>
+							<a class="dropdown-item" href="#">Campaña</a>
+							<a class="dropdown-item" href="#">Modos de juego</a>
+						</div> 
+				</div>
+				
+				
+				<div class="col-sm-12 col-md-5 col-lg-2 dropdown">
+					<div class="cajas dropdown-toggle" type="button" 
+					id="dropdownMenuButton2" data-toggle="dropdown" 
+					aria-haspopup="true" aria-expanded="false"><b>Gears of War 2</b>			
+						</div>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+							<a class="dropdown-item" href="#" onclick="aparecer_gears(2)"><b>Personajes</b></a>
+							<a class="dropdown-item" href="#">Campaña</a>
+							<a class="dropdown-item" href="#">Modos de Juego</a>
+						</div> 
+				</div>
+				
+				<div class="col-sm-12 col-md-5 col-lg-2 dropdown">
+					<div class="cajas dropdown-toggle" type="button" 
+					id="dropdownMenuButton3" data-toggle="dropdown" 
+					aria-haspopup="true" aria-expanded="false"><b>Gears of war 3</b>				
+						</div>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
+							<a class="dropdown-item" href="#" onclick="aparecer_gears(3)">Personajes</a>
+							<a class="dropdown-item" href="#">Campaña</a>
+							<a class="dropdown-item" href="#">Modos de juego</a>
+						</div> 
+				</div>
+				
+				<div class="col-sm-12 col-md-5 col-lg-2 dropdown">
+					<div class="cajas dropdown-toggle" type="button" 
+					id="dropdownMenuButton4" data-toggle="dropdown" 
+					aria-haspopup="true" aria-expanded="false"><b>Gears of War 4</b>				
+						</div>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="#" onclick="aparecer_gears(4)">Personajes</a>
+							<a class="dropdown-item" href="#">Campaña</a>
+							<a class="dropdown-item" href="#">Modos de juego</a>
+						</div> 
+				</div>
+				
+				<div class="col-sm-12 col-md-5 col-lg-2 dropdown">
+					<div class="cajas dropdown-toggle" type="button" 
+					id="dropdownMenuButton5" data-toggle="dropdown" 
+					aria-haspopup="true" aria-expanded="false"><b>Contacto</b>				
+						</div>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="#" onclick="aparecer_gears(5)">Contacto</a>
+							
+							
+							
+						</div> 
+				</div>
+				
+				<div id="personajesgears1">
+					<br/>
+					<h2>PERSONAJES</h2>
+					<table class="col-lg-12 col-sm-12 col-md-12">
+					   <tr>
+						  <td class="col-lg-2 col-sm-2 col-md-2"><img src="./img/Marcus.png"></td>
+						  <td><h3>Marcus Fenix</h3><p>Marcus Michael Fenix, líder del pelotón Delta e hijo del conocido científico militar Adam Fenix, es un soldado decidido e ingenioso que no ve sus actos como algo heroico, sino como una simple necesidad.
+						  Antes de su condena, Marcus era un soldado condecorado y un gran líder. Ahora, este héroe caído podría ser la última esperanza de la supervivencia de la humanidad. </p></td>
+					   </tr>
+					</table> 
+					<br/>
+					
+				</div>
+					
+				<div id="personajesgears2">
+					<br/>
+					<h2>PERSONAJES</h2>
+					<table class="col-lg-12 col-sm-12 col-md-12">
+					   <tr>
+						  <td class="col-lg-2 col-sm-2 col-md-2"><img src="./img/Dom.jpg"></td>
+						  <td><h3>Dominic Santiago</h3><p>Dominic "Dom" Santiago, soldado comando de las Fuerzas Armadas de la Coalición de Gobiernos Ordenados (CGO) . Es un duro guerrero que posee una actitud positiva incluso en los peores momentos. Liberó a su mejor amigo, Marcus Fenix , de la Cárcel de Máxima Seguridad de Jacinto y lo reclutó para el pelotón Delta</p></td>
+					   </tr>
+					</table> 
+					<br/>
+				
+				</div>
+				<div id="personajesgears3">
+					<br/>
+					<h2>PERSONAJES</h2>
+					<table class="col-lg-12 col-sm-12 col-md-12">
+					   <tr>
+						  <td class="col-lg-2 col-sm-2 col-md-2"><img src="./img/anya.png"></td>
+						  <td><h3>Anya Stroud</h3><p>La Teniente Anya Stroud fue una oficial Gear del ejército de la Coalición de Gobiernos Ordenados (CGO) y
+						la única hija de la comandante Helena Stroud. Se unió al ejército CGO para seguir los pasos de su madre, pero a diferencia de ella, Anya se convirtió en una oficial de comunicaciones del CIC. Participo en las Guerras del Péndulo, en la Guerra Locust y finalmente en la Invasión Lambent solo que durante la invasión de los lambents ella se volvió gears de primera linea. </p></td>
+					   </tr>
+					</table> 
+					<br/>
+				
+				</div>
+				
+					<div id="personajesgears4">
+					<br/>
+					<h2>PERSONAJES</h2>
+					<table class="col-lg-12 col-sm-12 col-md-12">
+					   <tr>
+						  <td class="col-lg-2 col-sm-2 col-md-2"><img src="./img/jd.png"></td>
+						  <td><h3>JD Fenix</h3><p>James Dominic Fenix, conocido comúnmente por el sobrenombre JD, es un ex-teniente de Coalición de Gobiernos Ordenados e hijo del legendario veterano de guerra, Marcus Michael Fenix y de la también ex-teniente de la CGO, Anya Stroud.Con un comportamiento un poco insensato y renegado, y propenso a parecerse al de su padre, JD es el protagonista de Gears of War 4.  </p></td>
+					   </tr>
+					</table> 
+					<br/>
+					
+				</div>
+
+					<div id="personajesgears5">
+					<br/>
+					<h1>Formulario</h1>
+					<table class="col-lg-12 col-sm-12 col-md-12">
+					   <tr>
+						  <h2>Rellena con tus datos<h2>
+	
+	<form name="Contacto" action="http://www.inertinc.com/cursos/cursoweb2015/evaluf3/" method="post">	
+	
+	<div>
+	<label for="Nombre">Nombre</label>
+	<input type="text" name="Nombre" placeholder="Pon tu nombre" id="Nombre"/>
+	</div>	
+	<div>
+	<label for="Apellido">Apellido</label>
+	<input type="text" name"Apellido" placeholder="Pon tu apellido"Apellido"/>
+	</div>	
+	<div>
+	<input type="radio" name="sexo" value="H">Hombre <input type="radio" name="sexo" value="M">Mujer
+	
+	<div>	
+	<label for="Edad">Edad</label>
+	<input type="number" name="Edad" maxlength="2" id="Edad">
+	</div>	
+	<div>
+	<label for="emailusuario">Email</label>
+	<input type="text" name="emailusuario" placeholder="example@gmail.com" id="emailusuario">
+	</div>	
+	<div>	
+	<label for="Código Postal">Código Postal</label>
+	<input type="number" name="CP" id="CP">
+	</div>	
+	<div>
+	<label for="Como nos has conocido">¿Como nos has conocido?</label>
+	<select name="Como nos has conocido">
+	<option value="Face">Redes Sociales</option>
+	<option value="Face">Amigos</option>
+	<option value="Face">Internet</option>
+	<option value="Face">Otro</option>
+	</select>
+	</div>
+	<div>
+	<label for="Comentarios">Comentarios</label>
+	<input type="textarea" name="Comentarios" id="Comentarios" Width="200" Height="100">
+	</div>	
+	
+	
+		
+		
+		
+		
+		<p>Gears of war favorito</p>
+		<input type="radio" name="ciclo" value="Gears1" checked />Gears of war 1<br />
+		<input type="radio" name="ciclo" value="Gears2"  />Gears of war 2<br />
+		<input type="radio" name="ciclo" value="Gears3"  />Gears of war 3<br />
+		<br>
+		
+		<div>
+	<button type="submit">Enviar</button>
+	</div>
+						
+	
+</div>
+	
+	<input type="hidden" name="emailalumno" value="edusaldana1@gmail.com">
+	<input type="hidden" name="plantillacorreo" value="<h1>Nuevo mensaje recibido!</h1>
+	<p>Se ha recibido un mensaje nuevo directamente desde su página web a través del formulario de contacto :)">
+	<input type="hidden" name="clavesecreta" value="3a881f46d2">
+	</div>
+	</form> 
+					   </tr>
+					</table> 
+					<br/>
+					
+	
+				</div>
+
+
+				
+		</div>
+		</div>
+	</body>
+	</html>
